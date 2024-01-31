@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img src="https://images.app.goo.gl/E3d7pYhzj7mRn3tr5" alt="Sunset on a beach">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <h1 id="title">MAROTSE'S SURVEY FORM</h1>
+        <p id="description">Kindly take 5 minutes to help us give you and our future clients a better experience.</p>
+    </head>
+    <section> 
+        <form id="survey-form">
+            <label for="name-label">Name 
+                <input id="name" name="name" value="Text" type="text" placeholder="JoHN Doe" required></input>
+            </label>
+            <label for="email-label">Email
+                <input id="email" name="email" value="text" type="text" placeholder="johndoe@gmail.com" required></input>
+            </label>
+            <label for="number-label">Age
+                <input id="age" name="age" value="number" type="number" placeholder="15" max="120" min="14" required></input>
+            </label>
+            <label>Please select the destination you travelled to.
+                <select id="dropdown" required>
+                    <option>Other</option>
+                    <option>Diani</option>
+                    <option>Mombasa</option>
+                    <option>Kilifi</option>
+                    <option>Watamu</option>
+                    <option>Malindi</option>
+                    <option>Nairobi</option>
+                    <option>Nairobi outskirts</option>
+                    <option>International</option>
+                </select>
+            </label>
+            <label>If other or international kindly state the destination below.
+                <textarea type="text" placeholder="Insert text here"></textarea>
+            </label>
+        <label for="recommend-label">Would you recommend us to your friends, family and enemies alike?
+            <input id="recommend" name="recommend" type="radio" value="Yes">Yes</input>
+            <input id="recommend" name="recommend" type="radio" value="No">No</input>
+        </label>
+        <label for="experience">Kindly check all options that describe your experience with us.
+            <input type="checkbox" id="experience" name="'experience">Awful</input>
+            <input type="checkbox" id="experience" name="'experience">Bad</input>
+            <input type="checkbox" id="experience" name="'experience">Not sure</input>
+            <input type="checkbox" id="experience" name="'experience">Nice</input>
+            <input type="checkbox" id="experience" name="'experience">Great</input>
+            <input type="checkbox" id="experience" name="'experience">Can do better</input>
+        </label>
+        <label>In your own words please do tell us how we can improve as a company
+            <textarea type="text" placeholder="insert text here"></textarea>
+        </label>
+        <label>
+            <button id="submit" type="submit">Submit</button>
+        </label>
+        </form>
+        </form>
+    </section>
+</html>
